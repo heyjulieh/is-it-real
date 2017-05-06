@@ -13,7 +13,7 @@ function showController($http, $routeParams, $location) {
 
   function onShowSuccess(response){
     console.log('here\'s the data for pokemon', pokemonId, ':', response.data);
-    vm.pokemon = response.data;
+    vm.animal = response.data;
   }
   function onError(error){
     console.log('there was an error: ', error);

@@ -17,6 +17,12 @@ img#map {
   width: 50%;
 }
 
+img.desc {
+  max-width: 200px;
+  display: block;
+  margin: auto;
+}
+
 div.desc {
   text-align: left;
   background-color: #DCF0BF;
