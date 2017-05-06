@@ -1,5 +1,5 @@
 angular.module('isItReal')
-  .controller('indexController', indexController);
+  .controller('indexController', indexController)
 
 indexController.$inject=['$http'];
 function indexController($http) {

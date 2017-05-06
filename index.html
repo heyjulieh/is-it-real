@@ -2,11 +2,10 @@
 <html lang="en" ng-app="isItReal">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <base href="/">
 
   <!-- bootstrap css -->
   <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
 
   <!-- angular -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.min.js"></script>
@@ -15,6 +14,7 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.min.js"></script>
 
   <!-- custom script (angular app) -->
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClXy6jbEfAesmG41S370VjP7ljSWBAEXY&callback=initMap"></script> -->
   <script type="text/javascript" src="app.js"></script>
   <script type="text/javascript" src="controllers/indexController.js"></script>
   <script type="text/javascript" src="controllers/showController.js"></script>
@@ -22,12 +22,13 @@
   <title>Is It Real?</title>
 </head>
 <body>
+  <div class="page-header">
+    Is It Real?
+  </div>
+
   <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <div ng-view></div>
-      </div>
-    </div>
+
+      <div ng-view></div>
   </div>
 </body>
 </html>
