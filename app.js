@@ -10,14 +10,14 @@ config.$inject = ['$routeProvider', '$locationProvider'];
 function config (  $routeProvider,   $locationProvider  )  {
   $routeProvider
     .when('/', {
-      templateUrl: 'templates/pokemons/index.html',
-      controller: 'pokemonsIndexController',
-      controllerAs: 'pokemonsIndexCtrl'
+      templateUrl: 'templates/index.html',
+      controller: 'indexController',
+      controllerAs: 'indexCtrl'
     })
     .when('/pokemons/:id', {
-      templateUrl: 'templates/pokemons/show.html',
-      controller: 'pokemonsShowController',
-      controllerAs: 'pokemonsShowCtrl'
+      templateUrl: 'templates/show.html',
+      controller: 'showController',
+      controllerAs: 'showCtrl'
     })
     .otherwise({
       redirectTo: '/'

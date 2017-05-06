@@ -1,0 +1,17 @@
+<h2>Is It Real?</h2>
+<div ng-repeat="each in indexCtrl.pokemons">
+	<hr>
+	<div class="row">
+
+		<div class="col-xs-4">
+			<img ng-src="{{each.image}}" class="img-responsive">
+		</div>
+		<div class="col-xs-8">
+      {{pokemon._id}}
+			<h5><a ng-href="/pokemons/{{each._id}}">{{each.name}}</a></h5>
+			<br>
+			<p class="small">Estimated Remaining {{each.pokedex}}</p>
+			<p class="small">Native Habitat {{each.evolves_from}}</p>
+		</div>
+	</div>
+</div>
