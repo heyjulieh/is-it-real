@@ -17,12 +17,6 @@ img#map {
   width: 50%;
 }
 
-img.desc {
-  width: 150px;
-  display: block;
-  margin: auto;
-}
-
 div.desc {
   text-align: left;
   background-color: #DCF0BF;

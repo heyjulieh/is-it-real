@@ -1,7 +1,9 @@
 
+
+
 <div class="row">
   <div class="col-md-8 col-md-offset-2">
-    <div ng-repeat="each in indexCtrl.pokemons">
+    <div ng-repeat="each in indexCtrl.animals">
     	<hr>
     	<div class="row">
 
@@ -10,10 +12,12 @@
     		</div>
     		<div class="col-xs-8">
           {{pokemon._id}}
-    			<h5><a ng-href="/pokemons/{{each._id}}">{{each.name}}</a></h5>
+    			<h5><a ng-href="/animals/{{each._id}}">{{each.name}}</a></h5>
     			<br>
     			<p class="small">Estimated Remaining {{each.pokedex}}</p>
     			<p class="small">Native Habitat {{each.evolves_from}}</p>
     		</div>
     	</div>
     </div>
+  </div>
+</div>

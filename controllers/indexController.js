@@ -1,5 +1,5 @@
 angular.module('isItReal')
-  .controller('indexController', indexController)
+  .controller('indexController', indexController);
 
 indexController.$inject=['$http'];
 function indexController($http) {
@@ -11,8 +11,7 @@ function indexController($http) {
   }).then(onIndexSuccess, onError)
 
   function onIndexSuccess(response){
-    console.log('here\'s the get all response data', response.data);
-    vm.pokemons = response.data.pokemons;
+    vm.animals = response.data.pokemons;
   }
   function onError(error){
     console.log('there was an error: ', error);
