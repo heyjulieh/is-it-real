@@ -1,0 +1,17 @@
+<div class="container">
+	<h2>{{profileCtrl.animal.name}}</h2>
+	<hr>
+	<div class="row">
+		<div class="col-xs-6">
+			<img ng-src="{{profileCtrl.animal.image}}" class="img-responsive">
+		</div>
+		<div class="col-xs-6">
+			<p><strong>Year classified as endangered:</strong> {{profileCtrl.animal.endangeredYear}}</p>
+			<p><strong>Type:</strong> {{profileCtrl.animal.type}}</p>
+			<p><strong>Locations:</strong> {{profileCtrl.animal.locations.toString()}}</p>
+			<br>
+
+
+		</div>
+	</div>
+</div>

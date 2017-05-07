@@ -4,15 +4,15 @@ angular.module('isItReal')
 profileController.$inject=['$http', '$routeParams'];
 
 function profileController($http, $routeParams) {
-  var vm = this;
+  var id = $routeParams.id;
 
+  var vm = this;
   $http({
     method: 'GET',
-    url: '/api/animals/' + $routeParams.id
+    url: '/api/animal/' + id
   }).then(onShowSuccess, onError);
 
   function onShowSuccess(response){
-    console.log(response.data);
     vm.animal = response.data;
   }
   function onError(error){

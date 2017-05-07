@@ -43,8 +43,31 @@ app.get('/templates/:name', function templates(req, res) {
  * JSON API Endpoints
  */
 
+// index of all animals
 app.get('/api/animals', function (req, res) {
   db.Animal.find({}, function(err, animals){
+      if (err) {
+        res.status(500).send(err);
+      }
+      res.json(animals);
+    });
+});
+
+// show single animal with ID
+app.get('/api/animal/:id', function (req, res) {
+  console.log('get call show');
+  db.Animal.findById(req.params.id, function(err, animal){
+      if (err) {
+        res.status(500).send(err);
+      }
+      res.json(animal);
+    });
+});
+
+// show animals of type
+app.get('/api/animals/:type', function (req, res) {
+  console.log('get call show');
+  db.Animal.find({type:req.params.type}, function(err, animals){
       if (err) {
         res.status(500).send(err);
       }

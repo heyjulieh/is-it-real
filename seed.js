@@ -8,49 +8,49 @@ var db = require("./models");
 var animalList = [];
   animalList.push({
       name: "California Tiger Salamander",
-      type: 'Amphibians',
+      type: 'Amphibian',
       endangeredYear: 2004,
       locations: ['California'],
       image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/California_Tiger_Salamander.jpg/1599px-California_Tiger_Salamander.jpg'
     });
     animalList.push({
       name: "Houston Toad",
-      type: 'Amphibians',
+      type: 'Amphibian',
       endangeredYear: 1970,
       locations: ['Texas'],
       image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Houston_toad.jpg/440px-Houston_toad.jpg'
     });
     animalList.push({
       name: "Barton Springs Salamander",
-      type: 'Amphibians',
+      type: 'Amphibian',
       endangeredYear: 1997,
       locations: ['Texas'],
       image: 'https://upload.wikimedia.org/wikipedia/commons/a/a9/BartonSpringsSalamander.jpeg'
     });
     animalList.push({
       name: "Shenandoah Salamander",
-      type: 'Amphibians',
+      type: 'Amphibian',
       endangeredYear: 1989,
       locations: ['Virginia'],
       image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Shenandoah_Salamander_03.jpg/440px-Shenandoah_Salamander_03.jpg'
     });
     animalList.push({
       name: "Mountain Yellow-Legged Frog",
-      type: 'Amphibians',
+      type: 'Amphibian',
       endangeredYear: 2013,
       locations: ['California'],
       image: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Rana_muscosa.jpg'
     });
     animalList.push({
       name: "Sierra Nevada Yellow-Legged Frog",
-      type: 'Amphibians',
+      type: 'Amphibian',
       endangeredYear: 2014,
       locations: ['California'],
       image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Rana_sierrae01.jpg/440px-Rana_sierrae01.jpg'
     });
     animalList.push({
       name: "Texas Blind Salamander",
-      type: 'Amphibians',
+      type: 'Amphibian',
       endangeredYear: 1967,
       locations: ['Texas'],
       image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Texas_blind_salamander.jpg/480px-Texas_blind_salamander.jpg'
@@ -206,43 +206,43 @@ var animalList = [];
 
 
       animalList.push({
-          name: 'Yellow Shouldered Blackbird',
-          type: 'Birds',
+
+          type: 'Bird',
           endangeredYear: 1976,
           locations: ['Puerto Rico'],
           image: 'https://en.wikipedia.org/wiki/Yellow-shouldered_blackbird#/media/File:Yellow-shouldered_Blackbird_5_Mike_Morel.jpg'
         });
       animalList.push({
           name: 'Whooping Crane',
-          type: 'Birds',
+          type: 'Bird',
           endangeredYear: 1967,
           locations: ['Florida','Portland','Texas','Wisconsin'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Grus_americana_Sasata.jpg/330px-Grus_americana_Sasata.jpg'
         });
       animalList.push({
           name: 'California Condor',
-          type: 'Birds',
+          type: 'Bird',
           endangeredYear: 1987,
           locations: ['California'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Condor_in_flight.JPG/800px-Condor_in_flight.JPG'
         });
       animalList.push({
           name: "Kirtland's warbler",
-          type: 'Birds',
+          type: 'Bird',
           endangeredYear: 1973,
           locations: ['Michigan','Wisconsin'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Dendroica_kirtlandii_-Michigan%2C_USA_-male-8_%285%29.jpg/330px-Dendroica_kirtlandii_-Michigan%2C_USA_-male-8_%285%29.jpg'
         });
       animalList.push({
           name: "Ivory-billed woodpecker",
-          type: 'Birds',
+          type: 'Bird',
           endangeredYear: 1973,
           locations: ['Arkansas','Louisiana','Mississippi','Florida'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ivory-billed_Woodpecker_by_Jerry_A._Payne.jpg/390px-Ivory-billed_Woodpecker_by_Jerry_A._Payne.jpg'
         });
       animalList.push({
           name: "Saint Croix ground lizard",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 1977,
           locations: ['US Virgin Islands'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ameiva_polops_St._Croix_Ground_Lizard.JPG/330px-Ameiva_polops_St._Croix_Ground_Lizard.JPG'
@@ -256,161 +256,161 @@ var animalList = [];
         });
       animalList.push({
           name: "Loggerhead sea turtle",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 1977,
           locations: ['Puerto Rico'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Loggerhead_sea_turtle.jpg/330px-Loggerhead_sea_turtle.jpg'
         });
       animalList.push({
           name: "Spotted turtle",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 2012,
           locations: ['Illinois','Indiana','Michigan','North Carolina','Ohio','South Carolina'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Clemmys_guttataHolbrookV1P11A_Flipped.jpg/330px-Clemmys_guttataHolbrookV1P11A_Flipped.jpg'
         });
       animalList.push({
           name: "American Crocodile",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 2007,
           locations: ['Florida'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Crocodylus_acutus_mexico_02-edit1.jpg/330px-Crocodylus_acutus_mexico_02-edit1.jpg'
         });
       animalList.push({
           name: "New Mexico ridgenosed rattlesnake",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 1973,
           locations: ['Arizona','New Mexico'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/7/78/Ridgenose.jpg'
         });
       animalList.push({
           name: "Mona ground iguana",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 1977,
           locations: ['Puerto Rico'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Iguana_sitting_down_looking_to_the_left.jpg/330px-Iguana_sitting_down_looking_to_the_left.jpg'
         });
       animalList.push({
           name: "Leatherback sea turtle",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 1970,
           locations: ['California','Costa Rica','Florida','Oregon','Washington'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Leatherback_sea_turtle_Tinglar%2C_USVI_%285839996547%29.jpg/330px-Leatherback_sea_turtle_Tinglar%2C_USVI_%285839996547%29.jpg'
         });
       animalList.push({
           name: "eastern indigo snake",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 1990,
           locations: ['Alabama','Florida','Louisiana','Mississippi','South Carolina','Texas'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Eastern_Indigo_Snake.jpg/330px-Eastern_Indigo_Snake.jpg'
         });
       animalList.push({
           name: "Blunt-nosed leopard lizard",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 2012,
           locations: ['California'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/3/37/Gambelia_silus.gif'
         });
       animalList.push({
           name: "Wood turtle",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 2007,
           locations: ['Indiana','Michigan','Minnesota','Virginia'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/N140_Sowerby_%26_Lear_1872_%28glyptemys_insculpta%29.jpg/330px-N140_Sowerby_%26_Lear_1872_%28glyptemys_insculpta%29.jpg'
         });
       animalList.push({
           name: "Yellow Blotched map turtle",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 1973,
           locations: ['Alabama','Mississippi'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Graptemys.flavimaculata.JPG/330px-Graptemys.flavimaculata.JPG'
         });
       animalList.push({
           name: "Gopher tortoise",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 1973,
           locations: ['Florida','Georgia','South Carolina'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Gopherus_polyphemus_%28side%29.jpg/330px-Gopherus_polyphemus_%28side%29.jpg'
         });
       animalList.push({
           name: "Kemp's ridley sea turtle",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 1970,
           locations: ['Alabama','Florida','Mississippi','Louisiana','Texas'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Lepidochelys_kempii.jpg/330px-Lepidochelys_kempii.jpg'
         });
       animalList.push({
           name: "Olive ridley sea turtle",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 1978,
           locations: ['California'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Turtle_golfina_escobilla_oaxaca_mexico_claudio_giovenzana_2010.jpg/375px-Turtle_golfina_escobilla_oaxaca_mexico_claudio_giovenzana_2010.jpg'
         });
       animalList.push({
           name: "Olive ridley sea turtle",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 1978,
           locations: ['California'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Turtle_golfina_escobilla_oaxaca_mexico_claudio_giovenzana_2010.jpg/375px-Turtle_golfina_escobilla_oaxaca_mexico_claudio_giovenzana_2010.jpg'
         });
       animalList.push({
           name: "Alligator snapping turtle",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 2006,
           locations: ['Kentucky','Indiana','Illinois','Missouri','Kansas'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Alligator_snapping_turtle.jpg/330px-Alligator_snapping_turtle.jpg'
         });
       animalList.push({
           name: "Florida sand skink",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 1987,
           locations: ['Florida'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sand_Skink.jpg/330px-Sand_Skink.jpg'
         });
       animalList.push({
           name: "Alabama red-bellied cooter",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 1987,
           locations: ['Alabama','Mississippi'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Alabama_red-bellied_turtle_US_FWS_cropped.jpg/330px-Alabama_red-bellied_turtle_US_FWS_cropped.jpg'
         });
       animalList.push({
           name: "San Esteban chuckwalla",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 1973,
           locations: ['California'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/San_Esteban_Island_Chuckwalla.jpg/330px-San_Esteban_Island_Chuckwalla.jpg'
         });
       animalList.push({
           name: "Monito gecko",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 1982,
           locations: ['Puerto Rico'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Monito_gecko_Salamanquita_de_Monito_%285840026661%29.jpg/330px-Monito_gecko_Salamanquita_de_Monito_%285840026661%29.jpg'
         });
       animalList.push({
           name: "Flattened musk turtle",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 1973,
           locations: ['Alabama'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Sternotherus_depressus.jpg/330px-Sternotherus_depressus.jpg'
         });
       animalList.push({
           name: "Giant garter snake",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 1993,
           locations: ['California'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Giant_Garter_Snake_1.jpg/330px-Giant_Garter_Snake_1.jpg'
         });
       animalList.push({
           name: "San Francisco garter snake",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 1967,
           locations: ['California'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Thamnophis_sirtalis_tetrataenia_%282005_10_16%29_-_uitsnede.jpg/330px-Thamnophis_sirtalis_tetrataenia_%282005_10_16%29_-_uitsnede.jpg'
         });
       animalList.push({
           name: "Coachella Valley fringe-toed lizard",
-          type: 'Reptiles',
+          type: 'Reptile',
           endangeredYear: 1970,
           locations: ['California'],
           image: 'https://upload.wikimedia.org/wikipedia/commons/b/bd/Coachella_Valley_Fringe-toed_Lizard.JPG'
@@ -418,117 +418,427 @@ var animalList = [];
 
 animalList.push({
       name: 'Langes Metalmark Butterfly',
-      type: 'Insects and Arachnids',
+      type: 'Insect',
       endangeredYear: 1976,
       locations: ['California'],
       image: 'https://en.wikipedia.org/wiki/Apodemia_mormo_langei#/media/File:Apodemia_mormo_langei-02.JPG'
   });
   animalList.push({
       name: 'Hungerford Crawling Water Beetle',
-      type: 'Insects and Arachnids',
+      type: 'Insect',
       endangeredYear: 1994,
       locations: ['Michegan'],
       image: 'http://mnrsar.cat.webfeat.com/images/mnr_sar_hng_crw_wtr_btl_2.jpg'
   });
   animalList.push({
       name: 'Salt Creek Tiger Beetle',
-      type: 'Insects and Arachnids',
+      type: 'Insect',
       endangeredYear: 2005,
       locations: ['Nebraska'],
       image: 'https://en.wikipedia.org/wiki/Salt_Creek_tiger_beetle#/media/File:Salt_Creek_Tiger_Beetle.jpg'
   });
   animalList.push({
       name: 'Ohlone Tiger Beetle',
-      type: 'Insects and Arachnids',
+      type: 'Insect',
       endangeredYear: 2001,
       locations: ['California'],
       image: 'https://en.wikipedia.org/wiki/Ohlone_tiger_beetle#/media/File:Cicindela_ohlone.jpg'
   });
   animalList.push({
       name: 'Smith Blue Butterfly',
-      type: 'Insects and Arachnids',
+      type: 'Insect',
       endangeredYear: 1983,
       locations: ['California'],
       image: 'https://en.wikipedia.org/wiki/Smith%27s_blue_butterfly#/media/File:Euphilotes_enoptes.jpeg'
   });
   animalList.push({
       name: 'Quino Checkerspot Butterfly',
-      type: 'Insects and Arachnids',
+      type: 'Insect',
       endangeredYear: 1997,
       locations: ['California'],
       image: 'https://www.google.com/search?q=quino+checkerspot+butterfly&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwj9qZK_mdzTAhXng1QKHVwZA_YQiR4IhwE&biw=1440&bih=803#imgrc=SzZXZA09DVsdNM:'
   });
   animalList.push({
       name: 'Karner Blue Butterfly',
-      type: 'Insects and Arachnids',
+      type: 'Insect',
       endangeredYear: 1976,
       locations: ['Michegan','New Hampshire','New Jersey','New York','Wisconsin'],
       image: 'https://s3.amazonaws.com/user-media.venngage.com/521792-fcae2a5b622474fdcfb36d1f2d4555bf.jpg'
   });
   animalList.push({
       name: 'Spruce-Fir Moss Spider',
-      type: 'Insects and Arachnids',
+      type: 'Insect',
       endangeredYear: 1995,
       locations: ['North Carolina','Tennessee'],
       image: 'http://imagess3.enature.com/insects_spid/insects_spid_m/is0332_1m.jpg'
   });
   animalList.push({
       name: 'Mitchell Marsh Satyr',
-      type: 'Insects and Arachnids',
+      type: 'Insect',
       endangeredYear: 1973,
       locations: ['Ohio','New Jersey','Wisconsin'],
       image: 'https://en.wikipedia.org/wiki/Neonympha_mitchellii#/media/File:Mitchell%27s_Satyr_butterfly.jpg'
   });
   animalList.push({
       name: 'American Burying Beetle',
-      type: 'Insects and Arachnids',
+      type: 'Insect',
       endangeredYear: 1989,
       locations: ['Arkansas','Nebraska','Ohio','Oklahoma','South Dakota'],
       image: 'https://www.fws.gov/midwest/endangered/images/insects/ambb/ambb2WayneNFReintroByUSFS.jpg'
   });
   animalList.push({
       name: 'Laguna Mountains Skipper',
-      type: 'Insects and Arachnids',
+      type: 'Insect',
       endangeredYear: 1976,
       locations: ['California','Oregon','Washington'],
       image: 'http://socalbutterflies.com/images/laguna_mt_skip_md.jpg'
   });
   animalList.push({
       name: 'Calippe Silverspot Butterfky',
-      type: 'Insects and Arachnids',
+      type: 'Insect',
       endangeredYear: 1997,
       locations: ['California'],
       image: 'https://en.wikipedia.org/wiki/Callippe_silverspot_butterfly#/media/File:Speyeria_callippe_callippe.jpg'
   });
   animalList.push({
       name: 'Kretschmarr Cave Mold Beetle',
-      type: 'Insects and Arachnids',
+      type: 'Insect',
       endangeredYear: 1988,
       locations: ['Texas'],
       image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Rhadine_persephone_IMG_3763.jpg/440px-Rhadine_persephone_IMG_3763.jpg'
   });
   animalList.push({
       name: 'Bee Creek Cave Harvestman',
-      type: 'Insects and Arachnids',
+      type: 'Insect',
       endangeredYear: 1988,
       locations: ['Texas'],
       image: 'http://68.media.tumblr.com/36f60d3cfe135a90aea361c8e5aa0c0d/tumblr_mnmtf9lJMw1rxyvj1o2_540.jpg'
   });
   animalList.push({
       name: 'Zayante Band-Winged Grasshopper',
-      type: 'Insects and Arachnids',
+      type: 'Insect',
       endangeredYear: 2000,
       locations: ['California'],
       image: 'https://c1.staticflickr.com/9/8179/7926358150_5443410717_b.jpg'
   });
   animalList.push({
       name: 'Hawaiian Yellow-Faced Bee',
-      type: 'Insects and Arachnids',
+      type: 'Insect',
       endangeredYear: 2016,
       locations: ['Hawaii'],
       image: 'http://cdn.inquisitr.com/wp-content/uploads/2016/10/Endangered-species-list-honey-bees.jpg'
   });
-// remove animals first
+
+  animalList.push({
+      name: "Shortnose Sturgeon",
+      type: 'Fish',
+      endangeredYear: 1967,
+      locations: ['Florida', 'Massachusetts', 'South Carolina'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Acipenser_brevirostrum_head.jpg/520px-Acipenser_brevirostrum_head.jpg'
+    });
+    animalList.push({
+      name: "Gulf Sturgeon",
+      type: 'Fish',
+      endangeredYear: 1991,
+      locations: ['Florida', 'Louisiana', 'Gulf of Mexico'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/07-07-31_Boat%26Sturgeon.jpg/508px-07-07-31_Boat%26Sturgeon.jpg'
+    });
+    animalList.push({
+      name: "Ozark Cavefish",
+      type: 'Fish',
+      endangeredYear: 1984,
+      locations: ['Missouri'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Amblyopsis_rosae.jpg'
+    });
+    animalList.push({
+      name: "Modoc Sucker",
+      type: 'Fish',
+      endangeredYear: 1985,
+      locations: ['California', 'Oregon'],
+      image: 'http://www.desertfishes.org/dfc/na/catostom/catostom/cmicrops/cmicrop1.jpg'
+    });
+    animalList.push({
+      name: "Santa Ana Sucker",
+      type: 'Fish',
+      endangeredYear: 2000,
+      locations: ['California'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Catostomus_santaanae.jpg/440px-Catostomus_santaanae.jpg'
+    });
+    animalList.push({
+      name: "Warner Sucker",
+      type: 'Fish',
+      endangeredYear: 1985,
+      locations: ['Oregon'],
+      image: 'https://www.fws.gov/oregonfwo/images/secondary_banner/Catostomus_warnerensisFWS.jpg'
+    });
+    animalList.push({
+      name: "Shortnose Sucker",
+      type: 'Fish',
+      endangeredYear: 1988,
+      locations: ['California', 'Oregon'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Chasmistes_brevirostris.png'
+    });
+    animalList.push({
+      name: "Cui-ui",
+      type: 'Fish',
+      endangeredYear: 2014,
+      locations: ['Nevada'],
+      image: 'http://www.azflyfishing.net/azffgallery/albums/userpics/P3171250.JPG'
+    });
+    animalList.push({
+      name: "June Sucker",
+      type: 'Fish',
+      endangeredYear: 1986,
+      locations: ['Utah'],
+      image: 'https://ecos.fws.gov/docs/species_images/doc4857.jpg'
+    });
+    animalList.push({
+      name: "White River Springfish",
+      type: 'Fish',
+      endangeredYear: 1985,
+      locations: ['Nevada'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Crenichthys_baileyi_moapae.jpg/440px-Crenichthys_baileyi_moapae.jpg'
+    });
+    animalList.push({
+      name: "Railroad Valley Springfish",
+      type: 'Fish',
+      endangeredYear: 1986,
+      locations: ['Nevada'],
+      image: 'https://www.fws.gov/nevada/protected_species/fish/images/rrvsf.gif'
+    });
+    animalList.push({
+      name: "Diamond Darter",
+      type: 'Fish',
+      endangeredYear: 1973,
+      locations: ['Ohio', 'West Virginia'],
+      image: 'https://en.wikipedia.org/wiki/Diamond_darter'
+    });
+    animalList.push({
+      name: "Blue Shiner",
+      type: 'Fish',
+      endangeredYear: 1995,
+      locations: ['Alabama', 'Georgia', 'Tennessee'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Cyprinella_caerulea.jpg/440px-Cyprinella_caerulea.jpg'
+    });
+    animalList.push({
+      name: "Beautiful Shiner",
+      type: 'Fish',
+      endangeredYear: 1969,
+      locations: ['Arizona', 'New Mexico'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Beautiful_Shiner%2C_juvenile%2C_Cyprinella_formosa.jpg/440px-Beautiful_Shiner%2C_juvenile%2C_Cyprinella_formosa.jpg'
+    });
+    animalList.push({
+      name: "Leon Springs Pupfish",
+      type: 'Fish',
+      endangeredYear: 1980,
+      locations: ['Texas'],
+      image: 'http://tpwd.texas.gov/huntwild/wild/images/fish/leonspf.jpg'
+    });
+    animalList.push({
+      name: "Devils Hole Pupfish",
+      type: 'Fish',
+      endangeredYear: 1967,
+      locations: ['Nevada'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Cyprinodon_diabolis.jpg'
+    });
+    animalList.push({
+      name: "Comanche Springs Pupfish",
+      type: 'Fish',
+      endangeredYear: 1996,
+      locations: ['Texas'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/5/5a/Comanche_Springs_pupfish.jpg'
+    });
+    animalList.push({
+      name: "Desert Pupfish",
+      type: 'Fish',
+      endangeredYear: 1986,
+      locations: ['Arizona', 'California'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Male_female_mecularius.jpg/440px-Male_female_mecularius.jpg'
+    });
+    animalList.push({
+      name: "Owens pupfish",
+      type: 'Fish',
+      endangeredYear: 2010,
+      locations: ['California'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Owens_pupfish_%28Cyprinodon_radiosus%29.jpg/440px-Owens_pupfish_%28Cyprinodon_radiosus%29.jpg'
+    });
+    animalList.push({
+      name: "Lost River sucker",
+      type: 'Fish',
+      endangeredYear: 1988,
+      locations: ['California', 'Oregon'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/8/8c/Delistes_luxatus_usgs.jpg'
+    });
+    animalList.push({
+      name: "Devil's River Minnow",
+      type: 'Fish',
+      endangeredYear: 1999,
+      locations: ['Texas'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/0/0d/Dionda_diaboli_in_hand_w150.jpg'
+    });
+    animalList.push({
+      name: "Desert Dace",
+      type: 'Fish',
+      endangeredYear: 1986,
+      locations: ['Nevada'],
+      image: 'https://www.fws.gov/uploadedImages/Region_8/NWRS/Zone_1/Desert_Complex/Moapa_Valley/Images/Article_Photos/Moapa%20dace-519%20promo.jpg'
+    });
+    animalList.push({
+      name: "Slender Chub",
+      type: 'Fish',
+      endangeredYear: 1996,
+      locations: ['Tennessee', 'Virginia'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Slender_chub_fish_erimystax_cahni.jpg/440px-Slender_chub_fish_erimystax_cahni.jpg'
+    });
+    animalList.push({
+      name: "Slackwater Darter",
+      type: 'Fish',
+      endangeredYear: 1977,
+      locations: ['Alabama', 'Tennessee'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Etheostoma_boschungi.jpg/440px-Etheostoma_boschungi.jpg'
+    });
+    animalList.push({
+      name: "Watercress Darter",
+      type: 'Fish',
+      endangeredYear: 1999,
+      locations: ['Alabama'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/4/49/Watercress_Darter.jpg'
+    });
+    animalList.push({
+      name: "Okaloosa Darter",
+      type: 'Fish',
+      endangeredYear: 1973,
+      locations: ['Florida'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Etheostoma_okaloosae.jpg/440px-Etheostoma_okaloosae.jpg'
+    });
+    animalList.push({
+      name: "Boulder Darter",
+      type: 'Fish',
+      endangeredYear: 1988,
+      locations: ['Alabama', 'Tennessee'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Etheostoma_wapiti.jpg/440px-Etheostoma_wapiti.jpg'
+    });
+    animalList.push({
+      name: "Northern Tidewater Goby",
+      type: 'Fish',
+      endangeredYear: 1994,
+      locations: ['California'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Eucyclogobius_newberryi.jpg/440px-Eucyclogobius_newberryi.jpg'
+    });
+    animalList.push({
+      name: "Big Bend Gambusia",
+      type: 'Fish',
+      endangeredYear: 1996,
+      locations: ['Texas'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Gambusia_gaigei_01.jpg/440px-Gambusia_gaigei_01.jpg'
+    });
+    animalList.push({
+      name: "Clear Creek Gambusia",
+      type: 'Fish',
+      endangeredYear: 1967,
+      locations: ['Texas'],
+      image: 'http://www.fishesoftexas.org/media/attachments/taxa/images/web/13976.jpg'
+    });
+    animalList.push({
+      name: "Pecos gambusia",
+      type: 'Fish',
+      endangeredYear: 1996,
+      locations: ['New Mexico', 'Texas'],
+      image: 'http://tpwd.texas.gov/huntwild/wild/images/fish/pecosgam.jpg'
+    });
+    animalList.push({
+      name: "Mohave Tui Chub",
+      type: 'Fish',
+      endangeredYear: 1970,
+      locations: ['California', 'Nevada'],
+      image: 'https://www.wildlife.ca.gov/portals/0/Images/R6/desert_fish_images/R6_DesertFish_MohaveTui_1.jpg'
+    });
+    animalList.push({
+      name: "Borax Lake Chub",
+      type: 'Fish',
+      endangeredYear: 1982,
+      locations: ['Oregon'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/c/c1/Borax_lake_chub.jpg'
+    });
+    animalList.push({
+      name: "Humpback Chub",
+      type: 'Fish',
+      endangeredYear: 1976,
+      locations: ['Arizona', 'Utah'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Gila_cypha.jpg/440px-Gila_cypha.jpg'
+    });
+    animalList.push({
+      name: "Sonora Chub",
+      type: 'Fish',
+      endangeredYear: 1996,
+      locations: ['Arizon'],
+      image: 'http://elaribabi.com/wp-content/uploads/2013/09/Sonora-chub-Rancho-Aribabi-D45.jpg'
+    });
+    animalList.push({
+      name: "Bonytail Chub",
+      type: 'Fish',
+      endangeredYear: 1982,
+      locations: ['Wyoming', 'Colorado', 'Utah', 'New Mexico', 'Arizona', 'California'],
+      image: 'https://www.fws.gov/nevada/protected_species/fish/images/bt_chub.gif'
+    });
+    animalList.push({
+      name: "Gila Intermedia",
+      type: 'Fish',
+      endangeredYear: 1996,
+      locations: ['Arizona'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gila_intermedia_Gratwicke.jpg/440px-Gila_intermedia_Gratwicke.jpg'
+    });
+    animalList.push({
+      name: "Chihuahua Chub",
+      type: 'Fish',
+      endangeredYear: 1983,
+      locations: ['New Mexico'],
+      image: 'https://ecos.fws.gov/docs/species_images/doc4894.jpg'
+    });
+    animalList.push({
+      name: "Yaqui Chub",
+      type: 'Fish',
+      endangeredYear: 1984,
+      locations: ['Arizona'],
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Gila_purpurea.jpg/440px-Gila_purpurea.jpg'
+    });
+    animalList.push({
+      name: "Gila Seminuda",
+      type: 'Fish',
+      endangeredYear: 1989,
+      locations: ['Arizona', 'Nevada', 'Utah'],
+      image: 'https://www.fws.gov/southwest/es/arizona/images/SpeciesImages/Gila_Chub1_Dugas_AZ6_8_82.jpg'
+    });
+    animalList.push({
+      name: "Rio Grande Silvery Minnow",
+      type: 'Fish',
+      endangeredYear: 1994,
+      locations: ['Texas'],
+      image: 'https://ecos.fws.gov/docs/species_images/doc4976.jpg'
+    });
+    animalList.push({
+      name: "Delta Smelt",
+      type: 'Fish',
+      endangeredYear: 1993,
+      locations: ['Oregon'],
+      image: 'https://ecos.fws.gov/docs/species_images/doc4900.jpg'
+    });
+    animalList.push({
+      name: "Yaqui Catfish",
+      type: 'Fish',
+      endangeredYear: 1984,
+      locations: ['Arizona'],
+      image: 'https://www.nies.go.jp/biodiversity/invasive/DB/image/photo/50120_b.jpg'
+    });
+    animalList.push({
+      name: "White River spinedace",
+      type: 'Fish',
+      endangeredYear: 1985,
+      locations: ['California', 'Nevada'],
+      image: 'http://dingo.care2.com/pictures/petition_images/petition/499/514382-1403118215-wide.jpg'
+    });
+
+
 db.Animal.remove({}, function(err, animals) {
   console.log('removed all Animal');
   db.Animal.create(animalList, function(err, animals){

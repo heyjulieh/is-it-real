@@ -1,9 +1,9 @@
 angular.module('isItReal')
-  .controller('animalsController', animalsController);
+  .controller('classController', classController);
 
-animalsController.$inject=['$http', '$routeParams'];
+classController.$inject=['$http', '$routeParams'];
 
-function animalsController($http, $routeParams) {
+function classController($http, $routeParams) {
   var vm = this;
 
   $http({

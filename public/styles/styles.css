@@ -11,6 +11,7 @@ div.page-header {
   padding-top: 20px;
   padding-bottom: 20px;
   height: 130px;
+  width: 100%
 }
 
 img#map {

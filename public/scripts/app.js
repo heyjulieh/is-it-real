@@ -9,19 +9,24 @@ config.$inject = ['$routeProvider', '$locationProvider'];
 function config (  $routeProvider,   $locationProvider  )  {
   $routeProvider
     .when('/', {
-      templateUrl: 'templates/home',
+      templateUrl: '/templates/home',
       controller: 'homeController',
       controllerAs: 'homeCtrl'
     })
     .when('/animals', {
-      templateUrl: 'templates/animals',
-      controller: 'animalsController',
-      controllerAs: 'animalsCtrl'
+      templateUrl: '/templates/class',
+      controller: 'classController',
+      controllerAs: 'classCtrl'
     })
-    .when('/animals/:id', {
-      templateUrl: 'templates/animalsprofile',
+    .when('/animals/profile/:id', {
+      templateUrl: '/templates/profile',
       controller: 'profileController',
       controllerAs: 'profileCtrl'
+    })
+    .when('/animals/class/:type', {
+      templateUrl: '/templates/animals',
+      controller: 'animalsController',
+      controllerAs: 'animalsCtrl'
     })
 
   $locationProvider

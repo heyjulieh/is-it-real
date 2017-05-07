@@ -1,36 +1,26 @@
-<h2>{{showCtrl.animal.name}}</h2>
-<hr>
 <div class="row">
-	<div class="col-xs-6">
-		<img ng-src="{{showCtrl.animal.image}}" class="img-responsive">
-	</div>
-	<div class="col-xs-6">
-		<p><strong>Pokedex:</strong> {{showCtrl.animal.pokedex}}</p>
-		<p><strong>Evolves From:</strong> {{showCtrl.animal.evolves_from}}</p>
-		<br>
+  <div class="col-md-8 col-md-offset-2">
+    <h2>{{animalsCtrl.animals.type}}</h2>
 
-		<!-- buttons to edit/delete -->
-		<a href="#" ng-click="editForm=!editForm" class="btn btn-default">Edit <span class="glyphicon glyphicon-pencil"></span></a>&nbsp;
-		<a href="#" ng-click="showCtrl.deleteanimal(showCtrl.animal)" class="btn btn-default">Delete <span class="glyphicon glyphicon-trash"></span></a>
+    <label> Search: <input ng-model="searchText"> </label>
 
-		<!-- edit form -->
-		<div ng-show="editForm">
-			<br>
-	    <form ng-show="editForm" ng-submit="showCtrl.updateanimal(showCtrl.animal)">
-	      <div class="form-group">
-	        <input type="text" ng-model="showCtrl.animal.name" class="form-control" placeholder="Title">
-	      </div>
-	      <div class="form-group">
-	        <input type="text" ng-model="showCtrl.animal.pokedex" class="form-control" placeholder="Pokedex">
-	      </div>
-	      <div class="form-group">
-	        <input type="text" ng-model="showCtrl.animal.image" class="form-control" placeholder="Image">
-	      </div>
-	      <div class="form-group">
-	        <input type="text" ng-model="showCtrl.animal.evolves_from" class="form-control" placeholder="Evolves From">
-	      </div>
-	      <input type="submit" value="Update animal" class="btn btn-default">
-	    </form>
-		</div>
-	</div>
+    <div ng-repeat="each in animalsCtrl.animals | filter:searchText">
+
+      <hr>
+    	<div class="row">
+    		<div class="col-xs-4">
+    			<img ng-src="{{each.image}}" class="img-responsive">
+    		</div>
+    		<div class="col-xs-8">
+    			<h5><a ng-href="/animals/profile/{{each._id}}">{{each.name}}</a></h5>
+    			<br>
+    			<p class="">Type: {{each.type}}</p>
+    			<p class="">Location: {{each.locations.toString()}}</p>
+          <p class="">Endangered Year: {{each.endangeredYear}}</p>
+    		</div>
+    	</div>
+
+    </div>
+
+  </div>
 </div>
