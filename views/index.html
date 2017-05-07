@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="isItReal">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="/styles/styles.css">
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- angular -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.min.js"></script>
+
+  <!-- ngRoute -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.min.js"></script>
+
+  <!-- custom script (angular app) -->
+  <script type="text/javascript" src="scripts/app.js"></script>
+  <script type="text/javascript" src="scripts/controllers/homeController.js"></script>
+  <script type="text/javascript" src="scripts/controllers/animalsController.js"></script>
+  <script type="text/javascript" src="scripts/controllers/profileController.js"></script>
+
+  <title>Is It Real?</title>
+</head>
+<body id="body">
+  <div class="page-header">
+    Is It Real?
+  </div>
+
+  <div class="container">
+
+      <div ng-view></div>
+
+  </div>
+
+  <footer class="">
+    <div class="footer-copyright">
+        © 2017 Impact Hackathon
+    </div>
+  </footer>
+</body>
+</html>

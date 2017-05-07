@@ -1,0 +1,17 @@
+{
+  "name": "hackathon-is-it-real",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "janeosaur <janewie@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/janeosaur/is-it-real",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
